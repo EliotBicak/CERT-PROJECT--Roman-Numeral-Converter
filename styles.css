@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+html {
+  font-size: 16px; /* (1rem = 16px) */
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #EDE8D0;
+}
+
+.name {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+#creator-tag {
+  color: #A41F13;
+  font-size: 1.5rem;
+}
+
+.title-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#roman-title {
+  color: #A41F13;
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.roman-year {
+  margin-bottom: 10px;
+}
+
+.convertor-container {
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#input-number-text {
+  font-size: 1.5rem;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  font-size: 1.7rem;
+  background-color: #E0DBD8;
+  border: none;
+  text-align: center;
+}
+
+#convert-btn {
+  border: none;
+  color: white;
+  background-color: #A41F13;
+  border-radius: 15px;
+  padding: 5px 10px ;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#output {
+  border: 3px, solid, #A41F13;
+  background-color: #FA5343;
+  color: white; 
+  width: 500px;
+  height: 75px;
+  padding: 10px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#result-text {
+  font-size: 1.5rem;
+}
+
+
